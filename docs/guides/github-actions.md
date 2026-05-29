@@ -49,7 +49,7 @@ jobs:
         run: npm ci
 
       - name: Test MCP Server
-        uses: josharsh/mcp-jest@v1
+        uses: ReallyArtificial/mcp-jest@v1
         with:
           server-command: 'node'
           server-args: 'dist/server.js'
@@ -168,7 +168,7 @@ jobs:
       - run: npm run build
 
       - name: Test MCP Server
-        uses: josharsh/mcp-jest@v1
+        uses: ReallyArtificial/mcp-jest@v1
         with:
           server-command: 'node'
           server-args: 'dist/server.js'

@@ -27,7 +27,7 @@ We use GitHub to host code, to track issues and feature requests, as well as acc
 
 2. **Setup**
    ```bash
-   git clone https://github.com/josharsh/mcp-jest.git
+   git clone https://github.com/ReallyArtificial/mcp-jest.git
    cd mcp-jest
    npm install
    ```
@@ -148,7 +148,7 @@ describe('MCPTestRunner', () => {
 
 ## Reporting Bugs
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/josharsh/mcp-jest/issues).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/ReallyArtificial/mcp-jest/issues).
 
 **Great Bug Reports** tend to have:
 

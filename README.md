@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
 [![npm downloads](https://img.shields.io/npm/dm/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js CI](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml)
+[![Node.js CI](https://github.com/ReallyArtificial/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/ReallyArtificial/mcp-jest/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
@@ -161,7 +161,7 @@ See [CLI Reference](docs/cli-reference.md) for all options.
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ```bash
-git clone https://github.com/josharsh/mcp-jest.git
+git clone https://github.com/ReallyArtificial/mcp-jest.git
 cd mcp-jest
 npm install
 npm run dev
@@ -193,8 +193,8 @@ MCP-Jest is ideal for:
 
 ## Support
 
-- [GitHub Issues](https://github.com/josharsh/mcp-jest/issues) - Bug reports and feature requests
-- [GitHub Discussions](https://github.com/josharsh/mcp-jest/discussions) - Questions and ideas
+- [GitHub Issues](https://github.com/ReallyArtificial/mcp-jest/issues) - Bug reports and feature requests
+- [GitHub Discussions](https://github.com/ReallyArtificial/mcp-jest/discussions) - Questions and ideas
 - [Model Context Protocol](https://modelcontextprotocol.io) - Official MCP documentation
 
 ## Related Technologies

@@ -105,8 +105,8 @@ mcp-jest --config mcp-jest.json
 
 ## Getting Help
 
-- **[GitHub Issues](https://github.com/josharsh/mcp-jest/issues)** - Bug reports
-- **[GitHub Discussions](https://github.com/josharsh/mcp-jest/discussions)** - Questions
+- **[GitHub Issues](https://github.com/ReallyArtificial/mcp-jest/issues)** - Bug reports
+- **[GitHub Discussions](https://github.com/ReallyArtificial/mcp-jest/discussions)** - Questions
 - **[Troubleshooting](guides/troubleshooting.md)** - Common issues
 
 ## Contributing

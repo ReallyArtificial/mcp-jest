@@ -388,8 +388,8 @@ expect: (result) => {
 
 If you're still stuck:
 
-1. **Check existing issues**: [GitHub Issues](https://github.com/josharsh/mcp-jest/issues)
-2. **Ask a question**: [GitHub Discussions](https://github.com/josharsh/mcp-jest/discussions)
+1. **Check existing issues**: [GitHub Issues](https://github.com/ReallyArtificial/mcp-jest/issues)
+2. **Ask a question**: [GitHub Discussions](https://github.com/ReallyArtificial/mcp-jest/discussions)
 3. **File a bug report**: Include debug output, server info, and minimal reproduction
 
 When reporting issues, include:

@@ -18,7 +18,7 @@ To report a security vulnerability, please use one of the following methods:
 ### 1. GitHub Security Advisories (Preferred)
 
 Report security vulnerabilities through GitHub's Security Advisory feature:
-1. Go to https://github.com/josharsh/mcp-jest/security/advisories
+1. Go to https://github.com/ReallyArtificial/mcp-jest/security/advisories
 2. Click "New draft security advisory"
 3. Fill in the details of your finding
 

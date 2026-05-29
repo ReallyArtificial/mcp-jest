@@ -56,6 +56,6 @@ mcp-jest node ./server.js --tools search,email
 
 ## Links
 
-- [GitHub Repository](https://github.com/josharsh/mcp-jest)
+- [GitHub Repository](https://github.com/ReallyArtificial/mcp-jest)
 - [npm Package](https://www.npmjs.com/package/mcp-jest)
-- [Issue Tracker](https://github.com/josharsh/mcp-jest/issues)
+- [Issue Tracker](https://github.com/ReallyArtificial/mcp-jest/issues)

@@ -495,9 +495,9 @@ DEBUG=mcp-jest* mcp-jest node ./server.js --tools search
 
 ## Links
 
-- GitHub: https://github.com/josharsh/mcp-jest
+- GitHub: https://github.com/ReallyArtificial/mcp-jest
 - npm: https://www.npmjs.com/package/mcp-jest
-- Issues: https://github.com/josharsh/mcp-jest/issues
+- Issues: https://github.com/ReallyArtificial/mcp-jest/issues
 - MCP Specification: https://modelcontextprotocol.io
 
 ## License
