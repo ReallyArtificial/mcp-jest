@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
 [![npm downloads](https://img.shields.io/npm/dm/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js CI](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml)
+[![Node.js CI](https://github.com/reallyartificial/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/reallyartificial/mcp-jest/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
@@ -161,7 +161,7 @@ See [CLI Reference](docs/cli-reference.md) for all options.
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ```bash
-git clone https://github.com/josharsh/mcp-jest.git
+git clone https://github.com/reallyartificial/mcp-jest.git
 cd mcp-jest
 npm install
 npm run dev
@@ -193,8 +193,8 @@ MCP-Jest is ideal for:
 
 ## Support
 
-- [GitHub Issues](https://github.com/josharsh/mcp-jest/issues) - Bug reports and feature requests
-- [GitHub Discussions](https://github.com/josharsh/mcp-jest/discussions) - Questions and ideas
+- [GitHub Issues](https://github.com/reallyartificial/mcp-jest/issues) - Bug reports and feature requests
+- [GitHub Discussions](https://github.com/reallyartificial/mcp-jest/discussions) - Questions and ideas
 - [Model Context Protocol](https://modelcontextprotocol.io) - Official MCP documentation
 
 ## Related Technologies
@@ -203,6 +203,10 @@ MCP-Jest is ideal for:
 - [@modelcontextprotocol/sdk](https://www.npmjs.com/package/@modelcontextprotocol/sdk) - Official MCP SDK
 - [Claude](https://claude.ai) - Anthropic's AI assistant with MCP support
 - [Jest](https://jestjs.io) - JavaScript testing framework (inspiration for MCP-Jest)
+
+## About Really Artificial
+
+MCP-Jest is part of [Really Artificial](https://github.com/reallyartificial), an open infrastructure initiative building production-grade tools for AI systems. We believe "an LLM call is artificial intelligence the way a heartbeat is a person" — so we're building the missing pieces (memory, execution, testing, HITL) that make AI systems actually work.
 
 ## License
 
