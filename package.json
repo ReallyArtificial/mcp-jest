@@ -69,16 +69,16 @@
   "author": "Harsh Joshi <harsh.joshi.pth@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josharsh/mcp-jest.git"
+    "url": "git+https://github.com/ReallyArtificial/mcp-jest.git"
   },
   "bugs": {
-    "url": "https://github.com/josharsh/mcp-jest/issues"
+    "url": "https://github.com/ReallyArtificial/mcp-jest/issues"
   },
   "homepage": "https://mcp-jest.ddiy.diy",
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/josharsh"
+    "url": "https://github.com/sponsors/ReallyArtificial"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
