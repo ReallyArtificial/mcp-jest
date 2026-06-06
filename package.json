@@ -69,10 +69,10 @@
   "author": "Harsh Joshi <harsh.joshi.pth@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josharsh/mcp-jest.git"
+    "url": "git+https://github.com/reallyartificial/mcp-jest.git"
   },
   "bugs": {
-    "url": "https://github.com/josharsh/mcp-jest/issues"
+    "url": "https://github.com/reallyartificial/mcp-jest/issues"
   },
   "homepage": "https://mcp-jest.ddiy.diy",
   "license": "MIT",
