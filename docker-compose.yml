@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  mcp-jest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mcp-jest:latest
+    container_name: mcp-jest
+
+    # Mount your MCP server and test files
+    volumes:
+      - ./tests:/tests:ro
+      - ./examples:/examples:ro
+
+    # Override default command to run tests
+    command: ["node", "/app/dist/cli.js"]
+
+    # Environment variables (customize as needed)
+    environment:
+      - NODE_ENV=production
+
+    # Resource limits (optional)
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+    # Restart policy
+    restart: unless-stopped
+
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+
+    # Read-only root filesystem (uncomment if your tests don't need write access)
+    # read_only: true
+
+    # Temporary filesystem for /tmp if using read-only root
+    # tmpfs:
+    #   - /tmp
