@@ -1,42 +1,33 @@
-# MCP-Jest - Testing Framework for Model Context Protocol Servers
+# mcp-jest
 
-[![npm version](https://img.shields.io/npm/v/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
-[![npm downloads](https://img.shields.io/npm/dm/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js CI](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
+**Automated testing for Model Context Protocol (MCP) servers.** Test your AI agent tools with Jest-like syntax, validate protocol compliance, and integrate with CI/CD.
 
-**The testing framework for Model Context Protocol (MCP) servers - like Jest, but for MCP. Test your AI agent tools, validate protocol compliance, and integrate with CI/CD pipelines.**
+- 🧪 **Test tools, resources, and prompts** — automated validation of your MCP server capabilities
+- 📦 **Zero config** — works out-of-the-box with any MCP server (stdio, HTTP, SSE)
+- ✅ **Protocol validation** — check MCP compliance with detailed scoring
+- 🚀 **CI/CD ready** — GitHub Actions, Jenkins, CircleCI integration
+- 📸 **Snapshot testing** — capture and compare outputs over time
 
-MCP-Jest is an open-source testing tool for developers building MCP servers that connect AI assistants (Claude, ChatGPT, GPT-4, Gemini, LLMs) to external tools, databases, APIs, and file systems. Write automated tests for your MCP tools, resources, and prompts with Jest-like syntax.
+MIT licensed · [npm](https://www.npmjs.com/package/mcp-jest) · [GitHub](https://github.com/josharsh/mcp-jest)
 
-## What is MCP?
+---
 
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io) is an open standard introduced by Anthropic that allows AI assistants like Claude, ChatGPT, and other large language models (LLMs) to connect with external tools, data sources, and APIs. Think of it as a USB-C port for AI - a standardized way for AI to interact with the world.
-
-## The Problem
-
-You built an MCP server that connects AI assistants to your database, file system, or API. But how do you know it actually works?
-
-- Manual testing for every change is slow and error-prone
-- Silent failures break AI workflows without warning
-- No native CI/CD integration exists for MCP servers
-- Debugging is difficult when tools fail in production
-
-**MCP-Jest solves this** with automated, repeatable testing for your MCP servers.
-
-## Quick Start
-
-### Install
+## Install
 
 ```bash
-npm install mcp-jest        # As dependency
+npm install mcp-jest        # Project dependency
 npm install -g mcp-jest     # Or globally for CLI
 ```
 
-### Test Your Server
+## Use It
+
+Test your MCP server in 30 seconds:
+
+```bash
+mcp-jest node ./server.js --tools search,email
+```
+
+Or use the JavaScript API:
 
 ```javascript
 import { mcpTest } from 'mcp-jest';
@@ -49,13 +40,22 @@ const results = await mcpTest(
 console.log(`${results.passed}/${results.total} tests passed`);
 ```
 
-### Or Use CLI
+## What is MCP?
 
-```bash
-mcp-jest node ./server.js --tools search,email
-```
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io) is an open standard by Anthropic that lets AI assistants (Claude, ChatGPT, Gemini) connect to external tools, databases, and APIs. MCP-Jest tests those connections.
 
-**That's it!** Your MCP server is now tested.
+---
+
+## Why MCP-Jest?
+
+You built an MCP server. But how do you know it works?
+
+- Manual testing is slow and error-prone
+- Silent failures break AI workflows
+- No native CI/CD integration for MCP
+- Debugging production failures is hard
+
+**MCP-Jest solves this** with automated, repeatable testing.
 
 ## Features
 
@@ -207,6 +207,18 @@ MCP-Jest is ideal for:
 ## License
 
 MIT License - Use freely in commercial and open source projects.
+
+---
+
+## Project Status
+
+[![npm version](https://img.shields.io/npm/v/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
+[![npm downloads](https://img.shields.io/npm/dm/mcp-jest.svg)](https://www.npmjs.com/package/mcp-jest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js CI](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml/badge.svg)](https://github.com/josharsh/mcp-jest/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 
 ---
 
