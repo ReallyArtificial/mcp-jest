@@ -181,3 +181,6 @@ Feel free to open an issue for questions, or reach out to the maintainers direct
 ## Recognition
 
 Contributors will be recognized in our README and release notes. Thank you for making MCP-Jest better!
+## AI assistance
+
+This org is built by a human and an AI collaborator, and AI-assisted contributions are welcome under the org-wide [AI assistance policy](https://github.com/ReallyArtificial/.github/blob/main/CONTRIBUTING.md#ai-assistance-policy). In short: disclose AI involvement in your pull request, make sure you have personally read and understood every line, write the PR description and review replies yourself, and keep agents away from `good first issue`. A human maintainer signs off on every merge.
