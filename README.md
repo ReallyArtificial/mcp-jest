@@ -151,6 +151,10 @@ See [CLI Reference](docs/cli-reference.md) for all options.
 - [GitHub Actions](docs/guides/github-actions.md)
 - [Watch Mode](docs/guides/watch-mode.md)
 
+### Runnable Examples
+
+- [Async tool handlers](examples/async-tools.test.ts) - test a tool that awaits a mocked async dependency and an expected async error path
+
 ## Requirements
 
 - **Node.js** 18+
