@@ -151,6 +151,66 @@ See [CLI Reference](docs/cli-reference.md) for all options.
 - [GitHub Actions](docs/guides/github-actions.md)
 - [Watch Mode](docs/guides/watch-mode.md)
 
+## TypeScript Support
+
+mcp-jest ships full TypeScript definitions. The library itself is compiled with `"strict": true`, so all exported types are null-safe and carry no implicit `any`.
+
+### Using mcp-jest in a strict TypeScript project
+
+Add `"strict": true` to your `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "strict": true
+  }
+}
+```
+
+Import the named types alongside the functions so the compiler can check your
+expectation callbacks:
+
+```typescript
+import {
+  mcpTest,
+  formatResults,
+  type MCPServerConfig,
+  type MCPTestConfig,
+} from 'mcp-jest';
+
+const server: MCPServerConfig = {
+  command: 'node',
+  args: ['./my-server.js'],
+};
+
+const config: MCPTestConfig = {
+  tools: {
+    search: {
+      args: { query: 'hello' },
+      // result is `unknown` — narrow before accessing properties
+      expect: (result: unknown): boolean => {
+        if (result === null || typeof result !== 'object') return false;
+        const r = result as Record<string, unknown>;
+        return Array.isArray(r['content']);
+      },
+    },
+  },
+};
+
+const results = await mcpTest(server, config);
+console.log(formatResults(results));
+```
+
+### Common strict-mode gotchas
+
+| Situation | Without strict | With strict |
+|---|---|---|
+| Expectation callback parameter | `(result) => …` silently typed as `any` | Must be `(result: unknown): boolean => …` |
+| Error handling in `catch` | `error.message` compiles | `error` is `unknown` — cast first: `(error as Error).message` |
+| Optional server fields | `env: undefined` compiles | Omit the key entirely — strict null checks flag the `undefined` assignment |
+
+See the full working example in [`examples/typescript-strict/`](examples/typescript-strict/).
+
 ## Requirements
 
 - **Node.js** 18+
